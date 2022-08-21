@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.colorchangerholder{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    height: 198px;
+    width: 350px;
+    background: purple;
+
+}
+.right{
+    height: 198px;
+    width: 100px;
+    background: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle1{
+    height: 50px;
+    border-radius: 50%;
+    background: purple;
+    width: 50px;
+}
+.circle2{
+    height: 50px;
+    border-radius: 50%;
+    background: tomato;
+    width: 50px;
+}
+.circle3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: violet;
+}
